@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottom_fragment">
+
+
+    <ImageView
+        android:id="@+id/zeldavolume2"
+        android:layout_width="120dp"
+        android:layout_height="142dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/zeldavolume2"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+    <TextView
+        android:id="@+id/textViewZelda"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="The Legend of Zelda: Twilight Princess Volume 2 (Inglés)"
+        android:layout_alignTop="@+id/zeldavolume2"
+        android:layout_toRightOf="@+id/zeldavolume2"
+        android:layout_toEndOf="@+id/zeldavolume2"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/priceZelda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:text="$132.34"
+        android:layout_below="@+id/textViewZelda"
+        android:layout_alignLeft="@+id/textViewZelda"
+        android:layout_alignStart="@+id/textViewZelda"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

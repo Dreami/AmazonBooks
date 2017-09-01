@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/twd_popup"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/twd_popup"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewTwd"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Walking Dead: The Pop-Up Book (Inglés) Pasta dura"
+        android:layout_alignTop="@+id/twd_popup"
+        android:layout_toRightOf="@+id/twd_popup"
+        android:layout_toEndOf="@+id/twd_popup"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/priceTwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#0000ff"
+        android:text="$365.86"
+        android:layout_alignBottom="@+id/twd_popup"
+        android:layout_alignLeft="@+id/textViewTwd"
+        android:layout_alignStart="@+id/textViewTwd" />
+
+</RelativeLayout>
+
